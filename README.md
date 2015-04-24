@@ -4,10 +4,11 @@ This app inputs a word and a sentence and outputs a number for how many words ar
 Setup includes running bundle to install necessary gems.
 Ruby 2.2.0p0 (2014-12-25 revision 49005) [x86_64-darwin14]
 Leon Zagorouiko
+Heroku link: https://fast-stream-1684.herokuapp.com/
 
 The MIT License (MIT)
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2015 <copyright holders>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
