@@ -10,5 +10,6 @@ end
 
 get('/output') do
   @word = params.fetch('word')
+  @output = @word.count_words(@word)
   erb(:output)
 end
