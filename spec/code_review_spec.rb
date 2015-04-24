@@ -7,6 +7,15 @@ describe('String#string_count') do
   end
 
   it('Input happy to see how many times happy apears in a string') do
-    expect("happy".string_count()).to(eq({"happy"=>2}))
+    expect("he".string_count()).to(eq(1))
   end
+
+  it('Input hi to see how many times hi apears in a string with different method') do
+    expect("is".string_count()).to(eq(1))
+end
+#I'm trying different methods at this point
+
+  it('Input string to count how many times the word is is showed.') do
+  expect("is happy".string_count()).to(eq(1))
+end
 end
